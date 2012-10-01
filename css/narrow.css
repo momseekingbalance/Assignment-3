@@ -1,0 +1,10 @@
+#secondary-content, .explanation, #featured, .eating, .footer {width: 100%;}
+	.explanation, footer {width: 300px;}
+
+  .eating {
+    float: none;
+    margin: 0 0 0 -40px;
+    padding-left: 0;
+}
+
+

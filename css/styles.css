@@ -1,0 +1,108 @@
+
+
+.ui-bar-a {
+    background: -moz-linear-gradient(#52a518, #327511) repeat scroll 0 0 #327511;
+    background: -webkit-linear-gradient(#52a518, #327511) repeat scroll 0 0 #327511;
+    background: -o-linear-gradient(#52a518, #327511) repeat scroll 0 0 #327511;
+    background: -ms-linear-gradient(#52a518, #327511) repeat scroll 0 0 #327511;
+    background: linear-gradient(#52a518, #327511) repeat scroll 0 0 #327511;
+
+
+    border: 1px solid #333333;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #000000;
+}
+
+/*#h-wrapper {
+	background: url('images/header2.png') repeat-x left top;
+	height: 200px;
+}*/
+
+.h-wrapper {
+background: #52a518; /* Old browsers */
+background: -moz-linear-gradient(left,  #52a518 87%, #327511 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(87%,#52a518), color-stop(100%,#327511)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #52a518 87%,#327511 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #52a518 87%,#327511 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #52a518 87%,#327511 100%); /* IE10+ */
+background: linear-gradient(to right,  #52a518 87%,#327511 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52a518', endColorstr='#327511',GradientType=1 ); /* IE6-9 */
+
+}
+
+.header {
+	background: url('../images/header3.png') no-repeat left top;
+	height: 155px;
+	margin-top: -1px;
+}
+
+.h-wrapper .header h2 {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 2em;
+    height: 31px;
+    margin-left: 0;
+    margin-top: 111px;
+    padding: 5px 0 5px 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.ui-header {
+
+	border-bottom: none;
+}
+.eating .blog li {
+	list-style: none;
+	padding: 5px 0;
+
+}
+.eating .blog li a {
+	font-size: 1.1em;
+	line-height: 22px;
+	font-weight: bold;
+	color: #008800;
+	text-decoration: none;
+	padding: 0 0 5px;
+}
+
+.eating .blog li a:hover {
+	color: #ADFF2F;
+}
+.photo {
+	float: left;
+}
+.explanation {
+	padding: 0 15px;
+	margin-left: 220px;
+}
+
+#primary-content {
+	width: 70%;
+	float: left;
+}
+
+#featured {
+	max-width: 60%;
+	float: left;
+}
+
+.eating, #secondary-content {
+	width: 250px;
+	float: right;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+h2, h3, h4 {
+	color: #327511;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+
