@@ -58,7 +58,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52a518', end
 	padding: 5px 0;
 
 }
-.eating .blog li a {
+.eating .blog li a, .eating .blog li a:visited {
 	font-size: 1.1em;
 	line-height: 22px;
 	font-weight: bold;
@@ -68,7 +68,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52a518', end
 }
 
 .eating .blog li a:hover {
-	color: #ADFF2F;
+	color: #ADFF2F!important;
 }
 .photo {
 	float: left;
@@ -103,6 +103,10 @@ h2, h3, h4 {
 
 h3 {
 	font-size: 1.2em;
+}
+
+.ui-li, .ui-li.ui-field-contain {
+    padding-left: 8px;
 }
 
 

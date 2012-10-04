@@ -7,7 +7,7 @@
 
 }
  	.eating {
-	margin-left: 415px;
+	margin-left: 330px;
     margin-top: -310px;
     margin-bottom: 180px;
 }
@@ -17,4 +17,5 @@
 .explanation {
     margin: 200px 0 0 -15px;
     padding: 0 15px;
+    width: 330px;
 }
